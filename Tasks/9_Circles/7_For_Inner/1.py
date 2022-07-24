@@ -27,22 +27,44 @@ import sys
 str_email, str_password = sys.argv[1:]
 i = 0
 for user in users:
-    # print(list(user.items()))
-    for user_data in list(user.items()):
-            print(user_data)
-
-            # if user_data[0] == str_email.lower():
-            #     if user_data[1] == str_password:
-            #         print("Доступ открыт")
-            #         i += 1
-            #         break
-            #     else:
-            #         print("Доступ закрыт")
-            #         i += 1
-            #         break
-if not i:
+    if user["email"] == str(str_email).lower():
+        if user["password"] == str_password:
+            print("Доступ открыт")
+            break
+        else:
+            print("Доступ закрыт")
+            break
+    i += 1
+if i == len(users):
     print("Пользователь не найден")
 
+
+# import sys
+#
+# # Получаем данные пользователя.
+# email = sys.argv[1].lower()
+# password = sys.argv[2]
+#
+# # Задаем доступ: None - пользователь не найден, True - доступ есть, False - доступа нет.
+# has_access = None
+#
+# # Перебираем всех пользователей в цикле:
+# for user in users:
+#     if user["email"] == email:
+#         if user["password"] == password:
+#             has_access = True
+#         else:
+#             has_access = False
+#
+#         break
+#
+# # Выводим результат.
+# if has_access is None:
+#     print("Пользователь не найден")
+# elif has_access:
+#     print("Доступ открыт")
+# else:
+#     print("Доступ закрыт")
 
 
 
