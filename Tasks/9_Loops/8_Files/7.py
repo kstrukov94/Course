@@ -24,43 +24,16 @@ import sys
 n_files, n_symbols = list(map(int, sys.argv[1:]))
 
 result = []
-full_cycles = round(n_symbols / n_files)
+full_cycles = round(n_symbols // n_files)
 rest = n_symbols % n_files
 
-line_symbol_index = 0
-for cycles_counter in range(1, full_cycles + 1):
+for cycles_counter in range(0, full_cycles):
     for file_index in range(1, n_files + 1):
         for line in open(f"data-{file_index}.txt", "r", encoding="utf-8"):
-            if line_symbol_index < len(line):
-                result.append(line[line_symbol_index])
-    line_symbol_index += 1
+            result.append(line[cycles_counter])
     file_index = 1
 
 for file_index in range(1, rest + 1):
         for line in open(f"data-{file_index}.txt", "r", encoding="utf-8"):
-            result.append(line[line_symbol_index])
+            result.append(line[full_cycles])
 print("".join(result))
-
-
-# import sys
-# n_files, n_symbols = list(map(int, sys.argv[1:]))
-#
-# result = []
-# full_cycles = round(n_symbols / n_files)
-# rest = n_symbols % n_files
-#
-# line_symbol_index = 0
-# cycles_counter = 1
-# while cycles_counter <= full_cycles:
-#     for file_index in range(1, n_files + 1):
-#         for line in open(f"data-{file_index}.txt", "r", encoding="utf-8"):
-#             if line_symbol_index < len(line):
-#                 result.append(line[line_symbol_index])
-#     line_symbol_index += 1
-#     file_index = 1
-#     cycles_counter += 1
-#
-# for file_index in range(1, rest + 1):
-#         for line in open(f"data-{file_index}.txt", "r", encoding="utf-8"):
-#             result.append(line[line_symbol_index])
-# print("".join(result))
