@@ -15,14 +15,40 @@
 # > python program.py 3 "Программирование"
 
 import sys
-n_files, text = int(sys.argv[1]), sys.argv[2]
+files_counter, text = int(sys.argv[1]), sys.argv[2]
+writing_list = []
+# пишем текст в список с 2 уровнями вложенности
+for n in range(0, files_counter):
+    writing_list.append([])
+    for symbol in list(text)[n::files_counter]:
+        writing_list[n].append(symbol)
+print(writing_list)
+# раскидываем каждый из списков по файлам
+for n in range(0, files_counter):
+    file = open(f"data-{n+1}.txt", "w+", encoding="utf-8")
+    file.write("".join(writing_list[n]))
 
-# создаем файлы
-for file_index in range(1, n_files + 1):
-    open(f"data-{file_index}.txt", "w", encoding="utf-8")
 
-full_loops = len(text) // n_files
-rest_in_loop = len(text) % n_files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # создаем файлы
+# for file_index in range(1, n_files + 1):
+#     open(f"data-{file_index}.txt", "w", encoding="utf-8")
+#
+# full_loops = len(text) // n_files
+# rest_in_loop = len(text) % n_files
 
 # записываем массивы данных
 
@@ -38,11 +64,11 @@ rest_in_loop = len(text) % n_files
 #             result[file_index - 1].append(symbol)
 # print(result)
 
-symbol_counter = 0
-
-result = []
-symbol_counter = 0
-for loop_counter in range(0, full_loops):
-    result.append([])
-    for symbol_index, symbol in enumerate(text):
-        result[loop_counter].append(symbol)
+# symbol_counter = 0
+#
+# result = []
+# symbol_counter = 0
+# for loop_counter in range(0, full_loops):
+#     result.append([])
+#     for symbol_index, symbol in enumerate(text):
+#         result[loop_counter].append(symbol)
