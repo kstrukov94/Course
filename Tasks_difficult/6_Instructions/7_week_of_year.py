@@ -27,11 +27,20 @@
 # 32 33 34 35 36 37 38
 
 import sys
-year_first_day, day = map(int, sys.argv[1:])
+first_day, day = map(int, sys.argv[1:])
 
-def find_week(first_day, day):
-    if day < first_day:
+
+def find_week(start_day, day_to_find):
+    if day_to_find < start_day:
         return -1
-    else:
-        return (day + first_day) // 7
-print(find_week(year_first_day, day))
+    # проверка
+    # print(abs(-(day_to_find - start_day + 1) / 7))
+    return abs(-(day_to_find - start_day + 1) // 7)
+    # - 3 потому что у нас 4 день идет в зачет вместе с отслаьными днями.
+    # return (day - 1 + first_day) // 7
+
+
+# print(find_week(5, 4))
+print(find_week(first_day, day))
+
+
