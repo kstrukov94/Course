@@ -9,7 +9,7 @@
     "client_type": "mobile",
     "balance": 337,
     "user": {
-        "id": "3749702",
+        "user_id": "3749702",
         "email": "email@random.org",
         "firstname": "James",
         "lastname": "Black",
