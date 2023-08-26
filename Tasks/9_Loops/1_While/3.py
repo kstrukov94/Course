@@ -10,11 +10,28 @@
 # 4 8 12 16 20 24 28 32 36
 
 import sys
+
 num = int(sys.argv[1])
-i = 1
+# v1
+# i = 1
+# nums = []
+# while i <= 9:
+#     nums.append(str(num * i))
+#     i += 1
+# result = " ".join(nums)
+# print(result)
+
+# v2
 nums = []
-while i <= 9:
-    nums.append(str(num * i))
+i = 1
+while i < 10:
+    nums.append(num * i)
     i += 1
-result = " ".join(nums)
-print(result)
+
+# через функцию range
+# for i in range(1, 10):
+#     nums.append(num * i)
+
+print(" ".join(map(str, nums)))
+
+
