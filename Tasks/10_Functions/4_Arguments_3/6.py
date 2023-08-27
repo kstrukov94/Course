@@ -1,4 +1,6 @@
 """ЗАМЕНА ПО СЛОВАРЮ"""
+
+
 # Напишите функцию replace_all, которая принимает два аргумента: текст и словарь.
 # Функция должна сделать в тексте замены в соответствии с данными из словаря.
 # Так если в словаре есть ключ "one" со значением "один" ({'one': 'один'}),
@@ -10,36 +12,33 @@
 # result = replace_all("one, two, three, four", {'one': 'один', 'three': 'три', 'five': 'пять', 'two': 'два'})
 # print(result)
 # 'один, два, три, four'
-import sys
-
 
 # Создайте функцию replace_all в этом месте
 
-dictionary = "'one': 'один', 'three': 'три', 'five': 'пять', 'two': 'два'"
+def replace_all(t, d):
+    for key, value in d.items():
+        t = t.replace(key, value)
+    return t
 
-def replace_all(text: str, data: dict) -> str:
-    new_text = ""
-    for key in data.keys():
-        new_text = text.replace(key, data[key])
-    return new_text
 
 # Добавьте функцию get_dict из прошлой задачи сюда
 
-def get_dict(text):
-    new_dict = {}
-    for block in text.split(";"):
-        key, value = block.split(": ")
-        new_dict[key] = value
-    return new_dict
+from file5 import get_dict
 
 # Не удаляйте код ниже, он нужен для тестирования вашей функции.
 import sys
 
 # Получаем текст
 text = sys.argv[1]
+# text = "one, two, three, four"
+# text = 'Мой любимый язык программирования C++'
+
 
 # Формируем словарь
 data = get_dict(sys.argv[2])
+# data = {'one': 'один', 'three': 'три', 'five': 'пять', 'two': 'два'}
+# data = get_dict("Java:Python;PHP:Python;C++:Python")
+
 
 # Получаем новый текст
 print(replace_all(text, data))
