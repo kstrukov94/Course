@@ -19,4 +19,4 @@ log_list = sys.argv[1].split(" ")
 print("{} {}".format(log_list[2], log_list[3]))
 
 # если нужно на значения разбить, то:
-# ip, date, method, path, protocol, status = line.split()
+# ipa, date, method, path, protocol, status = line.split()

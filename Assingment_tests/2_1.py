@@ -3,7 +3,7 @@
     "game": "bgaming:WildPharaoh",
     # (should be "softswiss:WildPharaoh")
     "locale": "en",
-    "ip": "193.109.26.164",
+    "ipa": "193.109.26.164",
     "urls": {"deposit_url": "https://www.anyname.com/accounts/EUR/deposit?redirected_from_game=true",
              "return_url": "https://www.anyname.com/exit_iframe?redirected_from_game=true"},
     "client_type": "mobile",

@@ -20,7 +20,7 @@
 # year = ["q1", "q2", "q3", "q4"]
 #
 # # Вычисляем среднее.
-# avg = sum(year) / len(years)
+# avg = num_sum(year) / len(years)
 #
 # # Выводим результат.
 # print("Средний доход: {} руб.'.format('avg"))

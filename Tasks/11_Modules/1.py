@@ -16,18 +16,30 @@
 # print(access)
 # True
 
-import ipaddress
+import sys, ipaddress as ipa
+
+
 def has_access(ip1, ip2):
-    ip_computer = ipaddress.ip_address(ip1)
-    ip_network = ipaddress.ip_network(ip2)
-    return True if ip_computer in list(ip_network.hosts()) else False
+    ip_comp = ipa.ip_address(ip1)
+    ip_netw = ipa.ip_network(ip2)
+    return True if ip_comp in list(ipa.ip_network(ip_netw).hosts()) else False
+
+
+
 print(has_access("91.142.84.30", "91.142.84.0/27"))
 
 # import ipaddress
-# def has_access(ip, network):
+# def has_access(ip1, ip2):
+#     ip_computer = ipaddress.ip_address(ip1)
+#     ip_network = ipaddress.ip_network(ip2)
+#     return True if ip_computer in list(ip_network.hosts()) else False
+# print(has_access("91.142.84.30", "91.142.84.0/27"))
+
+# import ipaddress
+# def has_access(ipa, network):
 #     # Преобразовываем адреса.
-#     ip = ipaddress.ip_address(ip)
+#     ipa = ipaddress.ip_address(ipa)
 #     network = ipaddress.ip_network(network)
 #
 #     # Выводим данные.
-#     return True if ip in network.hosts() else False
+#     return True if ipa in network.hosts() else False

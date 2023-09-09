@@ -13,13 +13,13 @@ num_max = 0
 i = 0
 while i < len(numbers):
     j = 0
-    sum = 0
+    num_sum = 0
     while j < len(numbers[i]):
-        sum += int(numbers[i][j])
+        num_sum += int(numbers[i][j])
         j += 1
-    if sum > sum_max:
+    if num_sum > sum_max:
         num_max = int(numbers[i])
-        sum_max = int(sum)
+        sum_max = int(num_sum)
     i += 1
 print(num_max)
 

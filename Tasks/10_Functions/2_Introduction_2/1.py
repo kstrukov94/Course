@@ -34,4 +34,4 @@ print(sum_mult_index([11, 22, 33, 44, 55]))
 #
 # # Вариант 2
 # def sum_mult_index(lst):
-#     return sum(e * i for e, i in enumerate(lst[1:], 1))
+#     return num_sum(e * i for e, i in enumerate(lst[1:], 1))
