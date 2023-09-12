@@ -35,4 +35,4 @@ print(result)
 # # <b>Вариант 2</b> (продвинутый) - решение в одну строку:
 # # Используем функциональное программирование (ФП).
 # # Если вам интересно как это работает, то рекомендуем пройти мини-курс по ФП.
-# print(sum(filter(lambda x: x < 0, map(int, open("numbers.txt", "r").read().strip().spl
+# print(num_sum(filter(lambda key: key < 0, map(int, open("numbers.txt", "r").read().strip().spl

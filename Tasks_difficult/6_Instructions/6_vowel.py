@@ -55,6 +55,6 @@ print("".join(result))
 #
 # # Вариант 3 (продвинутый).
 # # Используем функциональное программирование.
-# print("".join(list(filter(lambda x: x in "aueiyoAUEIYO", sys.argv[1]))))
+# print("".join(list(filter(lambda key: key in "aueiyoAUEIYO", sys.argv[1]))))
 
 

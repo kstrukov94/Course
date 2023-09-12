@@ -4,7 +4,7 @@
   "game": "softswiss:CherryFiesta",
   "currency": "EUR",
   "locale": "de",
-  "ip": "46.53.162.55",
+  "ipa": "46.53.162.55",
   "balance": 25000,
   "client_type": "desktop",
   "urls": {

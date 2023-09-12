@@ -46,7 +46,7 @@ def usm(*args):
 # # Альтернативный вариант в функциональном стиле
 # #
 # def usm(*digits):
-#     return sum(map(int, digits)) if type(digits[0]) == int else "".join(map(str, digits))
+#     return num_sum(map(int, digits)) if type(digits[0]) == int else "".join(map(str, digits))
 
 print(usm(4, 1, 5, 9))
 print(usm("4", 1))

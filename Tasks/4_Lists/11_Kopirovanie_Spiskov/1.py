@@ -44,7 +44,7 @@ print("{} {:.2f}".format(votes, result))
 # work_votes = work_votes[1:-1]
 #
 # # Считаем среднее.
-# avg = sum(work_votes) / len(work_votes)
+# avg = num_sum(work_votes) / len(work_votes)
 #
 # # Выводим список оценок и результат.
 # print(votes, "{:.2f}".format(avg))
