@@ -10,9 +10,9 @@
 # а после выводит.
 #
 # Пример использования:
-# > python program.py "if x == 12:\n	print(x)"
-# > if x == 12:
-#     print(x)
+# > python program.py "if key == 12:\n	print(key)"
+# > if key == 12:
+#     print(key)
 
 import sys
 text = sys.argv[1]
