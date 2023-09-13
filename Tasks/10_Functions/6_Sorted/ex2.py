@@ -36,14 +36,14 @@ print(', '.join(sorted(words_list, key=sort_words)))
 # from string import ascii_letters
 #
 #
-# def russian_first(value):
+# def russian_first(val):
 #     # Если первая буква не английская
-#     if value[0] not in ascii_letters:
+#     if val[0] not in ascii_letters:
 #         # Добавляем в начало слова пустой символ.
 #         # Это самый первый символ ASCII кодировки, что гарантирует
 #         # поднятие русских названий вверх.
-#         return "\0" + value
-#     return value
+#         return "\0" + val
+#     return val
 #
 #
 # # Получаем данные

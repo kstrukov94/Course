@@ -37,14 +37,14 @@ def separate(input_str):
 
 
 
-# def separate(value):
+# def separate(val):
 #     # Начальные переменные
 #     left = "0"
 #     right = ""
 #
 #     # По умолчанию считаем, что слева идут цифры.
 #     digits = True
-#     for c in value:
+#     for c in val:
 #         # Формируем блок цифр, пока они идут
 #         if digits and c.isdigit():
 #             left += c

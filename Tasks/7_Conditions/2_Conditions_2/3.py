@@ -37,26 +37,26 @@ else:
 # import sys
 #
 # # Получаем данные
-# value = int(sys.argv[1])
+# val = int(sys.argv[1])
 #
 # # Основной расчет
-# if value < 1000:
+# if val < 1000:
 #     suffix = ""
-# elif 1000 <= value < 1_000_000:
-#     value = value / 1000
+# elif 1000 <= val < 1_000_000:
+#     val = val / 1000
 #     suffix = "K"
 # else:
-#     value = value / 1_000_000
+#     val = val / 1_000_000
 #     suffix = "M"
 #
 # # Базовое округление
-# value = str(round(value, 2))
+# val = str(round(val, 2))
 #
 # # Оставляем только 4 знака
-# value = value[:4]
+# val = val[:4]
 #
 # # Избавляемся от нулей и точки справа (если есть)
-# value = value.rstrip('0').rstrip('.')
+# val = val.rstrip('0').rstrip('.')
 #
 # # Выводим финальный результат
-# print(f"{value}{suffix}")
+# print(f"{val}{suffix}")

@@ -33,24 +33,24 @@ print(" ".join(data_result))
 # prev_value = None  # Предыдущее значение
 #
 # # Запускаем цикл.
-# for value in values:
+# for val in values:
 #     # Если текущее значение - это null и есть предыдущее значение prev_value
 #     # то добавляем это значение в результирующий список.
 #     # Если данные идут так "2016 null", то предыдущее значение - это 2016,
 #     # И будет добавлено ['2016', '2016']
-#     if value == "null":
+#     if val == "null":
 #         if prev_value:
 #             result.append(prev_value)
 #         else:
 #             # Если предыдущего значения нет, то просто добавляем null.
 #             # Это для случаев, когда данные начинаются с null:
 #             # 'null null 2016' -> ['null', 'null', '2016']
-#             result.append(value)
+#             result.append(val)
 #     else:
 #         # Если текущее значение не null и оно не равно предыдущему,
 #         # то обновляем предыдущее.
-#         if prev_value != value:
-#             prev_value = value
+#         if prev_value != val:
+#             prev_value = val
 #         # Вставляем предыдущее значение, которое также будет являться текущим,
 #         # если сработало условие выше.
 #         result.append(prev_value)
@@ -64,8 +64,8 @@ print(" ".join(data_result))
 #
 # i = 1
 # while i < len(values):
-#     value = values[i]
-#     if value == "null":
+#     val = values[i]
+#     if val == "null":
 #         values[i] = values[i - 1]
 #     i += 1
 #
@@ -82,7 +82,7 @@ print(" ".join(data_result))
 # prev_value = 'null'
 #
 # # Сразу генерируем итоговый результат.
-# result = [prev_value := value if value not in (prev_value, 'null') else prev_value for value in sys.argv[1:]]
+# result = [prev_value := val if val not in (prev_value, 'null') else prev_value for val in sys.argv[1:]]
 #
 # # Выводим данные.
 # print(" ".join(result))
