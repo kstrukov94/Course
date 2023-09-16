@@ -27,10 +27,10 @@ print(", ".join(result))
 #
 # max_values = []
 # max_value = float("-inf")  # Изначально считаем, что минимальное значение - это минус бесконечность
-# for value in sys.argv[1:]:
-#     value = int(value)
-#     if value > max_value:
-#         max_value = value
+# for val in sys.argv[1:]:
+#     val = int(val)
+#     if val > max_value:
+#         max_value = val
 #         max_values.append(str(max_value))
 #
 # print(", ".join(max_values))
@@ -43,9 +43,9 @@ print(", ".join(result))
 #
 # data = map(int, sys.argv[1:])
 #
-# def collect_max_values(result, value):
-#     if value > result[0]:
-#         return value, result[1] + [value]
+# def collect_max_values(result, val):
+#     if val > result[0]:
+#         return val, result[1] + [val]
 #     return result[0], result[1]
 #
 # max_values = reduce(collect_max_values, data, (float("-inf"), []))

@@ -44,8 +44,8 @@ print(" ".join(result))
 #
 # # Перебираем целые числа с помощью range.
 # values = []
-# for value in range(start, end, step):
-#     values.append(str(value / 10))
+# for val in range(start, end, step):
+#     values.append(str(val / 10))
 #
 #
 # print(" ".join(values))

@@ -18,7 +18,7 @@ key, value = sys.argv[1], sys.argv[2]
 
 user[key] = value
 
-# user_new = {key: value}
+# user_new = {key: val}
 # user.update(user_new)
 
 print(user)

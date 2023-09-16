@@ -54,18 +54,18 @@ print(" ".join(event_colors))
 # prev_value = float("-inf")
 #
 # # Перебираем элементы
-# for value in values:
-#     value = int(value)
+# for val in values:
+#     val = int(val)
 #
 #     # Сравниваем текущее значение с предыдущим
-#     if value > prev_value:
+#     if val > prev_value:
 #         colors.append("green")
-#     elif value < prev_value:
+#     elif val < prev_value:
 #         colors.append("red")
 #     else:
 #         # Если данные равны, то ставим значение последнего элемента из colors
 #         colors.append(colors[-1])
 #
-#     prev_value = value
+#     prev_value = val
 #
 # print(" ".join(colors))

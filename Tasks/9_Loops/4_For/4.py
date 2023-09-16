@@ -32,10 +32,10 @@ print(" ".join(revenues_res))
 #
 # # Текущее значение.
 # accumulate_value = 0
-# for value in values:
+# for val in values:
 #     # Вычисляем значения.
-#     value = int(value)
-#     accumulate_value += value
+#     val = int(val)
+#     accumulate_value += val
 #
 #     # Добавляем в список.
 #     # Не забываем привести к строке, чтобы потом использовать с join.

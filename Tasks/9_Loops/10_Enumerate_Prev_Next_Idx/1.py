@@ -27,16 +27,16 @@ print(" ".join(result))
 # # Предыдущее значение.
 # prev_value = 0
 #
-# for value in values:
+# for val in values:
 #     # Вычисляем разницу.
-#     value = int(value)
-#     diff = value - prev_value
+#     val = int(val)
+#     diff = val - prev_value
 #
 #     # Добавляем в список.
 #     diff_values.append(str(diff))
 #
 #     # Обновляем прошлое значение.
-#     prev_value = value
+#     prev_value = val
 #
 # # Выводим результат.
 # print(" ".join(diff_values))

@@ -28,14 +28,14 @@ print(f"Доходы: {revenues} руб.\n"
 # income = outcome = 0
 #
 # # Запускаем цикл.
-# for value in values:
-#     value = int(value)
+# for val in values:
+#     val = int(val)
 #
 #     # Распределяем по переменным.
-#     if value > 0:
-#         income += value
+#     if val > 0:
+#         income += val
 #     else:
-#         outcome += value
+#         outcome += val
 #
 # # Вывод результата. Не забываем привести расходы к положительному числу.
 # print("Доходы: {} руб.\nРасходы: {} руб.".format(income, outcome * -1))

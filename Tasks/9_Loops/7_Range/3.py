@@ -30,8 +30,8 @@ print(" ".join(nums))
 #
 # values = []
 # # Перебираем числа и заполняем список values.
-# for value in range(start, end):
-#     values.append(str(value / 10))
+# for val in range(start, end):
+#     values.append(str(val / 10))
 #
 # print(" ".join(values))
 

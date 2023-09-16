@@ -31,16 +31,16 @@ def usm(*args):
 
 # def usm(*args):
 #     # Начальный аргумент.
-#     value = args[0]
+#     val = args[0]
 #
 #     # Перебираем все аргументы начиная с первого.
 #     for arg in args[1:]:
-#         if type(value) is str:
-#             value += str(arg)
+#         if type(val) is str:
+#             val += str(arg)
 #         else:
-#             value += int(arg)
+#             val += int(arg)
 #
-#     return value
+#     return val
 #
 # #
 # # Альтернативный вариант в функциональном стиле
