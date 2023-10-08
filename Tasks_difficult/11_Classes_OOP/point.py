@@ -30,8 +30,45 @@ print(point.y)
 99.8
 """
 
+
 class Point:
-    pass
+    def __init__(self, x, y):
+        self._x = float(x) if (type(x) in (int, float, str)) else print('Неверно задан тип "x"')
+        self._y = float(y) if (type(y) in (int, float, str)) else print('Неверно задан тип "y"')
 
-point1 = Point()
+    @property
+    def x(self):
+        return self._x
 
+    @property
+    def y(self):
+        return self._y
+
+    @x.setter
+    def x(self, new_x):
+        self._x = float(new_x) if (type(new_x) in (int, float, str)) else print('Неверно задан тип "x"')
+
+    @y.setter
+    def y(self, new_y):
+        self._y = float(new_y) if (type(new_y) in (int, float, str)) else print('Неверно задан тип "y"')
+
+    def set(self, new_x, new_y):
+        self.x = new_x
+        self.y = new_y
+
+
+# point1 = Point(5, 6)
+#
+# print(point1.x)
+# print(point1.y)
+#
+# point1.x = 55
+# point1.y = 66
+#
+# print(point1.x)
+# print(point1.y)
+#
+# point1.set([22], (22, 33))
+#
+# print(point1.x)
+# print(point1.y)

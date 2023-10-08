@@ -10,16 +10,14 @@
 
 from datetime import time
 
-latest = None
+latest = tuple()
 for line in open('ex01_visits.txt', 'r', encoding='utf-8'):
-    user_id, t = line.split(',')
-    hours, minutes, seconds = map(int, t.split(':'))
-    t = time(hours, minutes, seconds)
-    if t > time(9, 0, 0):
-        if latest is None:
-            latest = [int(user_id), t]
-        elif t > latest[1]:
-            latest = [int(user_id), t]
+    user_id, arrival_time = line.split(',')
+    hours, minutes, seconds = map(int, arrival_time.split(':'))
+    arrival_time = time(hours, minutes, seconds)
+    if arrival_time > time(9, 0, 0):
+        if not latest or arrival_time > latest[1]:
+            latest = user_id, arrival_time
 
-print(f'{latest[0]},{latest[1]}') if latest is not None else print('')
+print(f'{latest[0]},{latest[1]}') if latest else print('')
 

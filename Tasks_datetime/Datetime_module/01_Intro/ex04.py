@@ -21,8 +21,24 @@
 
 from datetime import date
 
+BASE_SALARY = 1000
+salary_days = []
+for line in open('ex04_days.txt', 'r', encoding='UTF-8'):
+    work_date_raw, work_hours = line.strip('\n').split(',')
+    year, month, day = map(int, work_date_raw.split('-'))
+    work_hours = int(work_hours)
+    if date(year, month, day).weekday() in range(5, 7):
+        salary_days.append(work_hours * BASE_SALARY * 1.5)
+    else:
+        salary_days.append(work_hours * BASE_SALARY)
+print(int(sum(salary_days)))
 
-working_hours = []
+
+
+
+
+
+"""working_hours = []
 for line in open('ex04_days.txt', 'r', encoding='utf-8'):
     work_date, work_hours = line.strip().split(sep=',')
     work_year, work_month, work_day = map(int, work_date.split(sep='-'))
@@ -60,4 +76,4 @@ with open("days.txt") as file:
         else:
             salary += BASE_SALARY * f_hours
 
-    print(int(salary))
+    print(int(salary))"""
