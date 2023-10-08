@@ -20,8 +20,8 @@ weekday_rus = {
 }
 
 year, month, day = map(int, sys.argv[1:])
-weekday = date(year, month, day).weekday()
-print(weekday_rus[weekday])
+print(weekday_rus[date(year, month, day).weekday()])
+
 
 # import sys
 # from datetime import date

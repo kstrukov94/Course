@@ -24,13 +24,37 @@
 
 from datetime import time
 
-late = []
-for line in open('ex01_visits.txt', 'r', encoding='utf-8'):
-    user_id, t = line.split(',')
-    hours, minutes, seconds = map(int, t.split(':'))
-    t = time(hours, minutes, seconds)
-    if t > time(9, 0, 0):
-        late.append(int(user_id))
+late_ids = []
+with open('ex01_visits.txt', 'r', encoding='UTF-8') as file:
+    for line in file:
 
-print(','.join(map(str, sorted(late))))
+        worker_id, arrival_time = line.strip().split(',')
+        worker_id = int(worker_id)
+
+        arr_h, arr_m, arr_s = map(int, arrival_time.split(':'))
+        arrival_time = time(hour=arr_h, minute=arr_m, second=arr_s)
+
+        work_time = time(9, 0, 0)
+        if arrival_time > work_time:
+            late_ids.append(worker_id)
+
+late_ids = map(str, sorted(late_ids))
+print(','.join(late_ids))
+
+
+
+
+
+
+
+
+# late = []
+# for line in open('ex01_visits.txt', 'r', encoding='utf-8'):
+#     user_id, t = line.split(',')
+#     hours, minutes, seconds = map(int, t.split(':'))
+#     t = time(hours, minutes, seconds)
+#     if t > time(9, 0, 0):
+#         late.append(int(user_id))
+#
+# print(','.join(map(str, sorted(late))))
 

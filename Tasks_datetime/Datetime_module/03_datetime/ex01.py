@@ -25,14 +25,24 @@
 
 from datetime import datetime as dt
 
-f_meetings = []
-# now = dt(2020, 4, 5, 18, 11)
-now = dt.now()
-# with open('ex01_calendar.txt', 'r', encoding='utf-8') as file:
-with open('calendar.txt', 'r', encoding='utf-8') as file:
+future_meetings_ids = []
+
+with open('ex01_calendar.txt', 'r', encoding='UTF-8') as file:
+    now_date = dt.now()
+    # now_date = dt(2020, 4, 5, 18, 11)
     for line in file:
-        user_id, date = line.strip().split(',')
-        date = dt.strptime(date, '%d.%m.%Y %H:%M')
-        if date > now:
-            f_meetings.append(user_id)
-    print(', '.join(f_meetings))
+        id_raw, datetime_raw = line.strip().split(',')
+        compare_date = dt.strptime(datetime_raw, '%d.%m.%Y %H:%M')
+        if compare_date > now_date:
+            future_meetings_ids.append(id_raw)
+print(', '.join(future_meetings_ids))
+
+# f_meetings = []
+# now = dt.now()
+# with open('ex01_calendar.txt', 'r', encoding='utf-8') as file:
+#     for line in file:
+#         user_id, date = line.strip().split(',')
+#         date = dt.strptime(date, '%d.%m.%Y %H:%M')
+#         if date > now:
+#             f_meetings.append(user_id)
+# print(', '.join(f_meetings))

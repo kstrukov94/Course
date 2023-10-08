@@ -19,13 +19,24 @@
 from datetime import date
 import sys
 
-year, month, day = map(int, sys.argv[1:])
-date_today = date.today()
-date_input = date(year, month, day)
 
-if date_today > date_input:
-    print('прошлое')
-elif date_today < date_input:
+year, month, day = map(int, sys.argv[1:])
+inp_date = date(year, month, day)
+today_date = date.today()
+if today_date < inp_date:
     print('будущее')
-elif date_today == date_input:
+elif today_date > inp_date:
+    print('прошлое')
+else:
     print('настоящее')
+
+# year, month, day = map(int, sys.argv[1:])
+# date_today = date.today()
+# date_input = date(year, month, day)
+#
+# if date_today > date_input:
+#     print('прошлое')
+# elif date_today < date_input:
+#     print('будущее')
+# elif date_today == date_input:
+#     print('настоящее')
