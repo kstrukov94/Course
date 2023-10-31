@@ -20,10 +20,10 @@ people = [
 ]
 
 
-def men_20_30(list):
-    return list["sex"] == "m" and list["age"] >= 20 and list["age"] <= 30
+def men_20_30(d):
+    return d["sex"] == "m" and d["age"] in range(20, 30)
 
 
 my_people = filter(men_20_30, people)
 
-# print(list(my_people))
+print(my_people)

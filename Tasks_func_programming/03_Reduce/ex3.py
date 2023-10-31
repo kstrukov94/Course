@@ -18,18 +18,20 @@
 # 34, 56, 74, 75
 
 from functools import reduce
-
 import sys
-nums = list(map(int, sys.argv[1:]))
+
+nums = map(int, sys.argv[1:])
+maxes = []
 
 
-def greater(x, l):
-    if x < :
-        return y
-    else:
-        return x
+def max_num(num: int, numbers: list):
+    if not numbers or num > max(numbers):
+        numbers.append(num)
 
 
-result = reduce(greater, nums)
+reduce(max_num, nums)
 
-print(result)
+
+print(maxes)
+
+

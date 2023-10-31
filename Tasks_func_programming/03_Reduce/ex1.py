@@ -5,9 +5,11 @@ from functools import reduce
 
 whoami = ['Я', ' ', 'п', 'р', 'о', 'г', 'р', 'а', 'м', 'м', 'и', 'с', 'т']
 
-def string_merge(str1: str, str2: str):
+
+def concatenate(str1, str2):
     return str1 + str2
 
-whoami = reduce(string_merge, whoami)
+
+whoami = reduce(concatenate, whoami)
 
 # print(whoami)

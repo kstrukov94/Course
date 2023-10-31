@@ -1,0 +1,761 @@
+{
+  "response": [
+    14,
+    {
+      "id": 36,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1490764640,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Мы собрали 46 самых популярных мифов о программировании и развеяли их. Если у вас еще остались вопросы по обучению, карьере или выбору языка, то смело переходите в блог и читайте.<br><br>https://shultais.education/blog/programming-myths",
+      "attachment": {
+        "type": "link",
+        "link": {
+          "url": "https://shultais.education/blog/programming-myths",
+          "title": "Мифы о программировании",
+          "description": "Самые популярные мифы о программировании, обучению программированию, выборе языка и карьере программиста.",
+          "target": "external",
+          "image_src": "https://pp.userapi.com/c626519/v626519333/5b4b9/NKKi5EsDmkg.jpg",
+          "image_big": "https://pp.userapi.com/c626519/v626519333/5b4bb/hUhOZEH9S4o.jpg"
+        }
+      },
+      "attachments": [
+        {
+          "type": "link",
+          "link": {
+            "url": "https://shultais.education/blog/programming-myths",
+            "title": "Мифы о программировании",
+            "description": "Самые популярные мифы о программировании, обучению программированию, выборе языка и карьере программиста.",
+            "target": "external",
+            "image_src": "https://pp.userapi.com/c626519/v626519333/5b4b9/NKKi5EsDmkg.jpg",
+            "image_big": "https://pp.userapi.com/c626519/v626519333/5b4bb/hUhOZEH9S4o.jpg"
+          }
+        }
+      ],
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 3
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 35,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1490080736,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "А у нас вышло первое видео на Youtube-канале. Смотрим, лайкаем, подписываемся:)<br>https://youtu.be/QfG3OaAbZrs",
+      "attachment": {
+        "type": "video",
+        "video": {
+          "vid": 456239017,
+          "owner_id": -86800590,
+          "title": "Первый язык программирования: Python vs Pascal",
+          "duration": 509,
+          "description": "Сравниваем Python и Pascal с точки зрения обучения программированию. Рассматриваем коммерческую успешность языков, сложность языков, выбор учителя и самостоятельное образование, возможности для обучения и для роста, стиль программирования.<br><br>И как всегда лучшие курсы по Python 3 на нашем сайте: http://shultais.education/courses/python-3",
+          "date": 1490080736,
+          "views": 5,
+          "image": "https://pp.userapi.com/c639524/u6174727/video/l_12568f48.jpg",
+          "image_big": "https://pp.userapi.com/c639524/u6174727/video/l_12568f48.jpg",
+          "image_small": "https://pp.userapi.com/c639524/u6174727/video/s_2c1844e0.jpg",
+          "image_xbig": "https://pp.userapi.com/c639524/u6174727/video/y_47dcf988.jpg",
+          "access_key": "801199ad8e2c0c4262",
+          "platform": "YouTube"
+        }
+      },
+      "attachments": [
+        {
+          "type": "video",
+          "video": {
+            "vid": 456239017,
+            "owner_id": -86800590,
+            "title": "Первый язык программирования: Python vs Pascal",
+            "duration": 509,
+            "description": "Сравниваем Python и Pascal с точки зрения обучения программированию. Рассматриваем коммерческую успешность языков, сложность языков, выбор учителя и самостоятельное образование, возможности для обучения и для роста, стиль программирования.<br><br>И как всегда лучшие курсы по Python 3 на нашем сайте: http://shultais.education/courses/python-3",
+            "date": 1490080736,
+            "views": 5,
+            "image": "https://pp.userapi.com/c639524/u6174727/video/l_12568f48.jpg",
+            "image_big": "https://pp.userapi.com/c639524/u6174727/video/l_12568f48.jpg",
+            "image_small": "https://pp.userapi.com/c639524/u6174727/video/s_2c1844e0.jpg",
+            "image_xbig": "https://pp.userapi.com/c639524/u6174727/video/y_47dcf988.jpg",
+            "access_key": "801199ad8e2c0c4262",
+            "platform": "YouTube"
+          }
+        }
+      ],
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 4
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 32,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1488382860,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Вышла статья про f-строки в нашем блоге. Смотрим особенности применения, сравниваем производительность разных способов форматирования. <br><br>https://shultais.education/blog/python-f-strings",
+      "attachment": {
+        "type": "link",
+        "link": {
+          "url": "https://shultais.education/blog/python-f-strings",
+          "title": "f-строки в Python",
+          "description": "Форматирование в Python 3.6 с помощью f-строк. Разбираем особенности нового формата строк. Сравниваем производительность.",
+          "target": "external",
+          "image_src": "https://pp.userapi.com/c836138/v836138727/348c3/bK4FQRJCtaE.jpg",
+          "image_big": "https://pp.userapi.com/c836138/v836138727/348c5/Vi_YHeIp7HU.jpg"
+        }
+      },
+      "attachments": [
+        {
+          "type": "link",
+          "link": {
+            "url": "https://shultais.education/blog/python-f-strings",
+            "title": "f-строки в Python",
+            "description": "Форматирование в Python 3.6 с помощью f-строк. Разбираем особенности нового формата строк. Сравниваем производительность.",
+            "target": "external",
+            "image_src": "https://pp.userapi.com/c836138/v836138727/348c3/bK4FQRJCtaE.jpg",
+            "image_big": "https://pp.userapi.com/c836138/v836138727/348c5/Vi_YHeIp7HU.jpg"
+          }
+        }
+      ],
+      "comments": {
+        "count": 2
+      },
+      "likes": {
+        "count": 1
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 28,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1488022525,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Самые перспективные молодые программисты на [club138022603|König Hack 2017] получили приз от Shultais Education - годовую подписку на сервис. Ура!",
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 456239020,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c836138/v836138727/32b6c/o_PHLrdl7YE.jpg",
+          "src_big": "https://pp.userapi.com/c836138/v836138727/32b6d/bFN4CQ9buQ8.jpg",
+          "src_small": "https://pp.userapi.com/c836138/v836138727/32b6b/4TYTudmh6Vc.jpg",
+          "src_xbig": "https://pp.userapi.com/c836138/v836138727/32b6e/xybKhbIMukw.jpg",
+          "src_xxbig": "https://pp.userapi.com/c836138/v836138727/32b6f/er-3EmcU6JU.jpg",
+          "src_xxxbig": "https://pp.userapi.com/c836138/v836138727/32b70/8eRLSTJ4C7o.jpg",
+          "width": 2560,
+          "height": 1707,
+          "text": "",
+          "created": 1488022525,
+          "post_id": 28,
+          "access_key": "f34b1514d3efbcb74f"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 456239020,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c836138/v836138727/32b6c/o_PHLrdl7YE.jpg",
+            "src_big": "https://pp.userapi.com/c836138/v836138727/32b6d/bFN4CQ9buQ8.jpg",
+            "src_small": "https://pp.userapi.com/c836138/v836138727/32b6b/4TYTudmh6Vc.jpg",
+            "src_xbig": "https://pp.userapi.com/c836138/v836138727/32b6e/xybKhbIMukw.jpg",
+            "src_xxbig": "https://pp.userapi.com/c836138/v836138727/32b6f/er-3EmcU6JU.jpg",
+            "src_xxxbig": "https://pp.userapi.com/c836138/v836138727/32b70/8eRLSTJ4C7o.jpg",
+            "width": 2560,
+            "height": 1707,
+            "text": "",
+            "created": 1488022525,
+            "post_id": 28,
+            "access_key": "f34b1514d3efbcb74f"
+          }
+        }
+      ],
+      "comments": {
+        "count": 3
+      },
+      "likes": {
+        "count": 2
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 25,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1484821026,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "В этом году мы выпустим вторую версию курса Python 3 (с улучшенным английским и дополнительными материалами), а также курс по PHP 7, который уже начали записывать.<br><br>Как всегда на уроках будет много практики и наш опыт – первый стартап мы делали в 2006 году на PHP 5. Поэтому книга слева такая потрепанная.",
+      "signer_id": 6174727,
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 456239019,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c639125/v639125727/e48/7_pYWScQoMo.jpg",
+          "src_big": "https://pp.userapi.com/c639125/v639125727/e49/_LoOXttgvRw.jpg",
+          "src_small": "https://pp.userapi.com/c639125/v639125727/e47/aQIzqM8WkoQ.jpg",
+          "src_xbig": "https://pp.userapi.com/c639125/v639125727/e4a/GOL90WQgG8A.jpg",
+          "src_xxbig": "https://pp.userapi.com/c639125/v639125727/e4b/mbLT6Pay8yo.jpg",
+          "src_xxxbig": "https://pp.userapi.com/c639125/v639125727/e4c/I0_9yZiGLYU.jpg",
+          "width": 2560,
+          "height": 1920,
+          "text": "",
+          "created": 1484758661,
+          "lat": 54.732021,
+          "long": 20.513077,
+          "post_id": 25,
+          "access_key": "14eb2be2a93c1ad080"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 456239019,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c639125/v639125727/e48/7_pYWScQoMo.jpg",
+            "src_big": "https://pp.userapi.com/c639125/v639125727/e49/_LoOXttgvRw.jpg",
+            "src_small": "https://pp.userapi.com/c639125/v639125727/e47/aQIzqM8WkoQ.jpg",
+            "src_xbig": "https://pp.userapi.com/c639125/v639125727/e4a/GOL90WQgG8A.jpg",
+            "src_xxbig": "https://pp.userapi.com/c639125/v639125727/e4b/mbLT6Pay8yo.jpg",
+            "src_xxxbig": "https://pp.userapi.com/c639125/v639125727/e4c/I0_9yZiGLYU.jpg",
+            "width": 2560,
+            "height": 1920,
+            "text": "",
+            "created": 1484758661,
+            "lat": 54.732021,
+            "long": 20.513077,
+            "post_id": 25,
+            "access_key": "14eb2be2a93c1ad080"
+          }
+        }
+      ],
+      "comments": {
+        "count": 1
+      },
+      "likes": {
+        "count": 2
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 22,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1479996402,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "С прошлой недели мы начали добавлять на Shultais Education задачи по математике. Это классические задачи на геометрию, логику и простую арифметику. <br><br>Задачи спроектированы так, чтобы развивать математическое мышление и навыки программирования на Python.",
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 456239017,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c836622/v836622727/13229/mSU97jQWyQE.jpg",
+          "src_big": "https://pp.userapi.com/c836622/v836622727/1322a/GjJE3TP92qM.jpg",
+          "src_small": "https://pp.userapi.com/c836622/v836622727/13228/VQo3fLQ0q6Y.jpg",
+          "width": 429,
+          "height": 345,
+          "text": "",
+          "created": 1479996401,
+          "access_key": "daa7909477e6875907"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 456239017,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c836622/v836622727/13229/mSU97jQWyQE.jpg",
+            "src_big": "https://pp.userapi.com/c836622/v836622727/1322a/GjJE3TP92qM.jpg",
+            "src_small": "https://pp.userapi.com/c836622/v836622727/13228/VQo3fLQ0q6Y.jpg",
+            "width": 429,
+            "height": 345,
+            "text": "",
+            "created": 1479996401,
+            "access_key": "daa7909477e6875907"
+          }
+        },
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 456239018,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c836622/v836622727/13237/CCpdXLmr8Rg.jpg",
+            "src_big": "https://pp.userapi.com/c836622/v836622727/13238/iLqFwphNrDw.jpg",
+            "src_small": "https://pp.userapi.com/c836622/v836622727/13236/BFysovDOzqQ.jpg",
+            "width": 399,
+            "height": 345,
+            "text": "",
+            "created": 1479996401,
+            "access_key": "df134f57e0890f6765"
+          }
+        }
+      ],
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 3
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 15,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1478431041,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Провели на этой неделе трехдневный интенсив по Python 3 для учителей информатики в Калининградском областном институте развития образования<br><br>- Сравнивали Паскаль и Python<br>- Рассматривали типовые задачи и их реализацию на Python<br>- Обсуждали проблемы внедрения Python в школе и его использования на ЕГЭ",
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 438151234,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c836722/v836722727/d1cc/Tem-fYjcyFg.jpg",
+          "src_big": "https://pp.userapi.com/c836722/v836722727/d1cd/QFvEx-xG2FI.jpg",
+          "src_small": "https://pp.userapi.com/c836722/v836722727/d1cb/0rcVgYVIz8U.jpg",
+          "src_xbig": "https://pp.userapi.com/c836722/v836722727/d1ce/OP6FASCLfG8.jpg",
+          "width": 800,
+          "height": 800,
+          "text": "",
+          "created": 1478431041,
+          "post_id": 15,
+          "access_key": "d93acd3802442c2ce9"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 438151234,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c836722/v836722727/d1cc/Tem-fYjcyFg.jpg",
+            "src_big": "https://pp.userapi.com/c836722/v836722727/d1cd/QFvEx-xG2FI.jpg",
+            "src_small": "https://pp.userapi.com/c836722/v836722727/d1cb/0rcVgYVIz8U.jpg",
+            "src_xbig": "https://pp.userapi.com/c836722/v836722727/d1ce/OP6FASCLfG8.jpg",
+            "width": 800,
+            "height": 800,
+            "text": "",
+            "created": 1478431041,
+            "post_id": 15,
+            "access_key": "d93acd3802442c2ce9"
+          }
+        }
+      ],
+      "comments": {
+        "count": 6
+      },
+      "likes": {
+        "count": 12
+      },
+      "reposts": {
+        "count": 1
+      }
+    },
+    {
+      "id": 14,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1471255336,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Новый курс на Shultais Education – Дата и время в Python 3.<br>За 9 уроков вы научитесь использовать модуль datetime, форматировать время, работать с часовыми поясами, а также освоите базовые возможности dateutil, calendar и pytils.",
+      "signer_id": 6174727,
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 425745731,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c630026/v630026727/4df15/od34RfR1j4g.jpg",
+          "src_big": "https://pp.userapi.com/c630026/v630026727/4df16/jC_ZVGqvKjI.jpg",
+          "src_small": "https://pp.userapi.com/c630026/v630026727/4df14/kTJ3pcf7RYs.jpg",
+          "src_xbig": "https://pp.userapi.com/c630026/v630026727/4df17/Ti2dBJORUz8.jpg",
+          "width": 701,
+          "height": 500,
+          "text": "",
+          "created": 1471249781,
+          "post_id": 14,
+          "access_key": "e30fc127334974cce5"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 425745731,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c630026/v630026727/4df15/od34RfR1j4g.jpg",
+            "src_big": "https://pp.userapi.com/c630026/v630026727/4df16/jC_ZVGqvKjI.jpg",
+            "src_small": "https://pp.userapi.com/c630026/v630026727/4df14/kTJ3pcf7RYs.jpg",
+            "src_xbig": "https://pp.userapi.com/c630026/v630026727/4df17/Ti2dBJORUz8.jpg",
+            "width": 701,
+            "height": 500,
+            "text": "",
+            "created": 1471249781,
+            "post_id": 14,
+            "access_key": "e30fc127334974cce5"
+          }
+        }
+      ],
+      "comments": {
+        "count": 1
+      },
+      "likes": {
+        "count": 6
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 12,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1465926126,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Большое обновление Shultais Education.<br><br>Прошло всего четыре месяца с момента запуска, а мы всё поменяли. Держитесь!<br><br>1. Подписка<br><br>Теперь не 9500 рублей за один курс, а всего 699 в месяц за все. Пройдете за 30 дней — сэкономите 8800 рублей. Растянете на год — всё равно дешевле.<br><br>Если вы один из первых учеников и купили курс за 9500 (или со скидкой), то доступ к нему у вас останется навсегда и без подписки. Бонусом вы получите доступ к другим курсам по Python.<br><br>2. Задачи после уроков<br><br>Раньше вы смотрели 20 уроков, а потом приступали к практике. Теперь практика встроена прямо в учебный блок. Посмотрели видео — решите небольшую задачу. Прямо в браузере. Так материал лучше усваивается.<br><br>3. Отказ от сертификатов<br><br>Сертификат — это хорошо, его можно повесить на стену и любоваться. А специальную страницу с вашими достижениями можно показать друзьям или отправить работодателю. Просто и удобно.",
+      "signer_id": 6174727,
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 417334386,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c631518/v631518727/3421d/FHXTcbyNaa0.jpg",
+          "src_big": "https://pp.userapi.com/c631518/v631518727/3421e/xxK-7P3d_w8.jpg",
+          "src_small": "https://pp.userapi.com/c631518/v631518727/3421c/l_ixNuxCFJI.jpg",
+          "width": 600,
+          "height": 297,
+          "text": "",
+          "created": 1465926111,
+          "post_id": 12,
+          "access_key": "9c28db6faeb0856e59"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 417334386,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c631518/v631518727/3421d/FHXTcbyNaa0.jpg",
+            "src_big": "https://pp.userapi.com/c631518/v631518727/3421e/xxK-7P3d_w8.jpg",
+            "src_small": "https://pp.userapi.com/c631518/v631518727/3421c/l_ixNuxCFJI.jpg",
+            "width": 600,
+            "height": 297,
+            "text": "",
+            "created": 1465926111,
+            "post_id": 12,
+            "access_key": "9c28db6faeb0856e59"
+          }
+        }
+      ],
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 9
+      },
+      "reposts": {
+        "count": 2
+      }
+    },
+    {
+      "id": 8,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1455987558,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Первые ученики уже скоро получат наши новые сертификаты!",
+      "signer_id": 6174727,
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 400915215,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c627930/v627930727/3e543/ikZpJ02EcgU.jpg",
+          "src_big": "https://pp.userapi.com/c627930/v627930727/3e544/cwYFmCukMzs.jpg",
+          "src_small": "https://pp.userapi.com/c627930/v627930727/3e542/gW6qKOMFVFw.jpg",
+          "src_xbig": "https://pp.userapi.com/c627930/v627930727/3e545/mpnn4JY4kN4.jpg",
+          "src_xxbig": "https://pp.userapi.com/c627930/v627930727/3e546/iyYiPfAGKDo.jpg",
+          "width": 1008,
+          "height": 724,
+          "text": "",
+          "created": 1455987605,
+          "access_key": "3c68ae73e5b7e6e004"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 400915215,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c627930/v627930727/3e543/ikZpJ02EcgU.jpg",
+            "src_big": "https://pp.userapi.com/c627930/v627930727/3e544/cwYFmCukMzs.jpg",
+            "src_small": "https://pp.userapi.com/c627930/v627930727/3e542/gW6qKOMFVFw.jpg",
+            "src_xbig": "https://pp.userapi.com/c627930/v627930727/3e545/mpnn4JY4kN4.jpg",
+            "src_xxbig": "https://pp.userapi.com/c627930/v627930727/3e546/iyYiPfAGKDo.jpg",
+            "width": 1008,
+            "height": 724,
+            "text": "",
+            "created": 1455987605,
+            "access_key": "3c68ae73e5b7e6e004"
+          }
+        }
+      ],
+      "comments": {
+        "count": 1
+      },
+      "likes": {
+        "count": 4
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 6,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1443704813,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Введение в типы данных",
+      "attachment": {
+        "type": "video",
+        "video": {
+          "vid": 171509789,
+          "owner_id": -86800590,
+          "title": "Введение в типы данных",
+          "duration": 109,
+          "description": "",
+          "date": 1443704656,
+          "views": 114,
+          "image": "https://pp.userapi.com/c629320/v629320590/15b39/_Y500EUTZC4.jpg",
+          "image_big": "https://pp.userapi.com/c629320/v629320590/15b39/_Y500EUTZC4.jpg",
+          "image_small": "https://pp.userapi.com/c629320/v629320590/15b3b/48jrybR86cw.jpg",
+          "access_key": "09c8742f37aa0a7a9e"
+        }
+      },
+      "attachments": [
+        {
+          "type": "video",
+          "video": {
+            "vid": 171509789,
+            "owner_id": -86800590,
+            "title": "Введение в типы данных",
+            "duration": 109,
+            "description": "",
+            "date": 1443704656,
+            "views": 114,
+            "image": "https://pp.userapi.com/c629320/v629320590/15b39/_Y500EUTZC4.jpg",
+            "image_big": "https://pp.userapi.com/c629320/v629320590/15b39/_Y500EUTZC4.jpg",
+            "image_small": "https://pp.userapi.com/c629320/v629320590/15b3b/48jrybR86cw.jpg",
+            "access_key": "09c8742f37aa0a7a9e"
+          }
+        }
+      ],
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 3
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 5,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1443704468,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Числа",
+      "signer_id": 6174727,
+      "attachment": {
+        "type": "video",
+        "video": {
+          "vid": 171509785,
+          "owner_id": -86800590,
+          "title": "Числа",
+          "duration": 125,
+          "description": "Знакомимся с числами в Python 3 и базовыми операциями над ними.",
+          "date": 1443704368,
+          "views": 103,
+          "image": "https://pp.userapi.com/c628517/v628517590/13200/X0P8DDIjuro.jpg",
+          "image_big": "https://pp.userapi.com/c628517/v628517590/13200/X0P8DDIjuro.jpg",
+          "image_small": "https://pp.userapi.com/c628517/v628517590/13202/819IU2-kkKE.jpg",
+          "access_key": "bd28b7c0ac66e5799e"
+        }
+      },
+      "attachments": [
+        {
+          "type": "video",
+          "video": {
+            "vid": 171509785,
+            "owner_id": -86800590,
+            "title": "Числа",
+            "duration": 125,
+            "description": "Знакомимся с числами в Python 3 и базовыми операциями над ними.",
+            "date": 1443704368,
+            "views": 103,
+            "image": "https://pp.userapi.com/c628517/v628517590/13200/X0P8DDIjuro.jpg",
+            "image_big": "https://pp.userapi.com/c628517/v628517590/13200/X0P8DDIjuro.jpg",
+            "image_small": "https://pp.userapi.com/c628517/v628517590/13202/819IU2-kkKE.jpg",
+            "access_key": "bd28b7c0ac66e5799e"
+          }
+        }
+      ],
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 3
+      },
+      "reposts": {
+        "count": 0
+      }
+    },
+    {
+      "id": 4,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1443527534,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Начинаем публиковать бесплатные уроки с курса программирования на Python 3",
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 7
+      },
+      "reposts": {
+        "count": 1
+      }
+    },
+    {
+      "id": 3,
+      "from_id": -86800590,
+      "to_id": -86800590,
+      "date": 1441041403,
+      "marked_as_ads": 0,
+      "post_type": "post",
+      "text": "Опубликована первая статья в нашем блоге об обучении, продуктивности и развитии.<br><br>Ноутбук или тетрадка, что взять с собой на лекцию.<br>http://shultais.ru/blog/pen-and-paper-vs-laptop.htm",
+      "attachment": {
+        "type": "photo",
+        "photo": {
+          "pid": 377049973,
+          "aid": -7,
+          "owner_id": -86800590,
+          "user_id": 100,
+          "src": "https://pp.userapi.com/c628220/v628220727/12385/MrR9bdwISQU.jpg",
+          "src_big": "https://pp.userapi.com/c628220/v628220727/12386/sBLYC-5NtAQ.jpg",
+          "src_small": "https://pp.userapi.com/c628220/v628220727/12384/l3_-J0jXQBg.jpg",
+          "src_xbig": "https://pp.userapi.com/c628220/v628220727/12387/eUDaAmYf8oM.jpg",
+          "src_xxbig": "https://pp.userapi.com/c628220/v628220727/12388/gFiGLuiOcXg.jpg",
+          "width": 1000,
+          "height": 667,
+          "text": "",
+          "created": 1441041406,
+          "post_id": 3,
+          "access_key": "0dbd1573e81f9fd690"
+        }
+      },
+      "attachments": [
+        {
+          "type": "photo",
+          "photo": {
+            "pid": 377049973,
+            "aid": -7,
+            "owner_id": -86800590,
+            "user_id": 100,
+            "src": "https://pp.userapi.com/c628220/v628220727/12385/MrR9bdwISQU.jpg",
+            "src_big": "https://pp.userapi.com/c628220/v628220727/12386/sBLYC-5NtAQ.jpg",
+            "src_small": "https://pp.userapi.com/c628220/v628220727/12384/l3_-J0jXQBg.jpg",
+            "src_xbig": "https://pp.userapi.com/c628220/v628220727/12387/eUDaAmYf8oM.jpg",
+            "src_xxbig": "https://pp.userapi.com/c628220/v628220727/12388/gFiGLuiOcXg.jpg",
+            "width": 1000,
+            "height": 667,
+            "text": "",
+            "created": 1441041406,
+            "post_id": 3,
+            "access_key": "0dbd1573e81f9fd690"
+          }
+        }
+      ],
+      "comments": {
+        "count": 0
+      },
+      "likes": {
+        "count": 5
+      },
+      "reposts": {
+        "count": 2
+      }
+    }
+  ]
+}

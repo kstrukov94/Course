@@ -10,13 +10,18 @@ rooms = [
 ]
 
 
-def add_square(room_dict):
-    room_dict["square"] = room_dict["length"] * room_dict["width"]
-    # альтернативный вариант
-    # room_dict.update({"square": room_dict["length"] * room_dict["width"]})
-    return room_dict
+def add_square(room: dict):
+    room["square"] = room["length"] * room["width"]
+    return room
 
 
 rooms = map(add_square, rooms)
 
 print(list(rooms))
+
+
+def add_square_old(room_dict):
+    room_dict["square"] = room_dict["length"] * room_dict["width"]
+    # альтернативный вариант
+    # room_dict.update({"square": room_dict["length"] * room_dict["width"]})
+    return room_dict
