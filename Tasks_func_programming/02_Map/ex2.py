@@ -8,10 +8,14 @@
 digits = ["12", "145", "  45", "12.4", "45,14", "15 645"]
 
 
-def clean_num(num: str):
-    return num.replace(",", ".").replace(" ", "")
+def clean_nums(number_str: str):
+    return float(number_str.replace(",", ".").replace(" ", ""))
 
 
-right_digits = map(float, map(clean_num, digits))
+right_digits = map(float, map(clean_nums, digits))
 
 print(list(right_digits))
+
+
+def clean_num_old(num: str):
+    return num.replace(",", ".").replace(" ", "")

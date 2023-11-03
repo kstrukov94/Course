@@ -10,14 +10,14 @@ rooms = [
     {"name": "комната 3", "length": 7, "width": 6.3},
 ]
 
-def room_square(x):
-    return x["length"] * x["width"]
 
-def sum_square(x, y):
-    return x + y
+def room_square(room: dict):
+    return room["length"] * room["width"]
+
+
+def flat_square(room1, room2):
+    return room1 + room2
+
 
 rooms = map(room_square, rooms)
-
-square = reduce(sum_square, rooms)
-
-# print(square)
+square = reduce(flat_square, rooms)
