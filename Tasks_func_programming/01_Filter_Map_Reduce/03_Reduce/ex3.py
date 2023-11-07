@@ -21,17 +21,17 @@ from functools import reduce
 import sys
 
 nums = map(int, sys.argv[1:])
+
+
+def max_n(n1, n2):
+    if n1 >= n2:
+        return n1
+    else:
+        maxes.append(n2)
+        return n2
+
+
 maxes = []
+reduce(max_n, nums, -float("inf"))
 
-
-def max_num(num: int, numbers: list):
-    if not numbers or num > max(numbers):
-        numbers.append(num)
-
-
-reduce(max_num, nums)
-
-
-print(maxes)
-
-
+print(*maxes, sep=", ")
